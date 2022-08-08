@@ -1,0 +1,791 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.main-header{
+  width: 1360px;
+  height: 100vh;
+  background: url('/public/img/banner_bg.png');
+  background-repeat: no-repeat;
+  overflow: hidden;
+  
+}
+.content-header{
+  display: flex;
+  width: 100px;
+  height: 120px;
+}
+.header-logo{
+  display: flex;
+  color: white;
+  padding: 40px;
+  font-size: 20px;
+  
+}
+#img-logo{
+  padding-right: 10px;
+}
+.parent-NavBar{
+  width: 800px;
+  padding-top: 50px;
+  margin-left: 6rem;
+  
+}
+.nav-ul-class{
+  list-style-type: none;
+  display: flex;
+  width: 900px;
+}
+.active:hover{
+  text-decoration: underline;
+  text-decoration: 1px underline;
+  color:azure
+}
+.nav-ul-class li{
+  font-size: 20px;
+  padding: 0px 20px 0px 20px;
+}
+.nav-ul-class li a{
+  text-decoration: none;
+  color: white;
+  font-family: sans-serif;
+  padding-inline-start: 20px;
+}
+.sub-menu-1{
+  display: none;
+}
+.nav-ul-class li:hover .sub-menu-1{
+  display: block;
+  position: absolute;
+  background-color: white;
+  
+}
+.nav-ul-class li:hover .sub-menu-1 ul{
+  list-style-type: none;
+  display: block;
+  margin: 25px 0px 0px 0px;
+  width: 250px;
+  border-radius: 5px;
+  margin-bottom: 25px;
+}
+.nav-ul-class li:hover .sub-menu-1 ul li{
+  background: transparent;
+  text-align: left;
+  margin-top: 15px;
+  
+}
+.nav-ul-class li:hover .sub-menu-1 ul li a{
+  color: dodgerblue;
+  margin-left: -20px;
+  font-size: 18px;
+}
+.signIn-Out{
+  width: 400px;
+  margin-top: 55px;
+  display: flex;
+ 
+}
+#sign-in{
+  width: 80px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+#sign-up{
+  width: 100px;
+  text-decoration: none;
+  color: blue;
+  font-weight: bold;
+  background-color: white;
+  text-align: center;
+  border-radius: 5px;
+  padding: 20px 10px 35px 20px;
+  margin-bottom: 50px;
+  margin-top: -20px;
+  margin-left: 20px;
+}
+.page-content{
+  width: 99%;
+  padding: 25px;
+  margin: 25px 0px 0px 55px;
+}
+.centeral-content{
+  display: flex;
+  width: 1300px;
+  
+}
+#page-title{
+  width: 400px;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 0;
+  line-height: 55px;
+  font-size: 40px;
+  font-weight: normal;
+  padding: 10px 0px 0px 20px;
+}
+#page-para{
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  padding-top: 15px;
+  font-size: 18px;
+  margin-bottom: 70px;
+  padding: 10px 0px 0px 20px;
+}
+#get-started{
+  
+  text-decoration: none;
+  color:white;
+  font-weight: bold;
+  background-color:coral;
+  margin-bottom: 35px;
+  text-align: center;
+  padding: 20px 50px 20px 50px;
+  border-radius: 5px;
+  margin-left: 20px;
+}
+#page-img{
+  width: 850px;
+
+}
+#img-style{
+  width: 850px;
+  height: 600px;
+  overflow: hidden;
+  margin-left: 12rem;
+}
+
+/* Header section complete here////////// 
+  Now next start here CITI Bank and so on*/
+  .bank-related{
+    width: 1350px;
+    height:200px;
+    background: #d5d5d5;
+    display: flex;
+    align-items: center;
+    
+    
+  }
+  .style-service{
+    width: 900px;
+    height: 200px;
+    margin-left: 220px;
+    margin-top: 70px;
+  }
+  #service{
+    width:100px;
+    height: 50px;
+   margin: 40px 40px 0px 40px;
+   opacity: 0.3;
+   
+  }
+  #service:hover{
+    transition: 1s;
+  opacity: 1;
+  }
+
+  /* ////////// About Saas Css start Here////////
+  ///////////////////////////////////////////////*/
+
+  .parent-aboutSaas{
+    width: 1340px;
+    height: auto;
+    margin-top: 75px;
+    display: flex;
+  }
+  .aboutSaas-img{
+    width: 600px;
+    height: auto;
+    margin-left: 86px;
+
+  }
+  .aboutSaas-content{
+    width: 550px;
+    height: auto;
+    margin-left: 50px;
+    margin-top: 95px;
+  }
+  #small-title{
+    color: gray;
+    font-size: 15px;
+    word-spacing: 2px;
+    
+  }
+  #big-title{
+    padding-top: 6px;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 1.2;
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 0;
+    margin-top: 20px;
+  }
+  #color-big-title{
+    color: rgb(102, 102, 205);
+    font-family: "Roboto", sans-serif;
+  }
+  #aboutSaas-para{
+    line-height: 1.3;
+    color: rgb(207, 191, 191);
+    font-size: 20px;
+    margin-top: 25px;
+  }
+  .fa{
+    font-size:20px;
+    color:white;
+    margin-top: 60px;
+  }
+  .circle{
+    height:300px;
+    width:300px;
+    border-radius: 50%;
+    background-color: coral;
+    padding: 36px;
+    cursor: pointer;
+  }
+  
+  .circle:hover {
+    background-color: white;
+    border: 2px solid coral; 
+  }
+  .circle:hover .fa{
+    color: coral;
+  }
+
+  /* ///////// Parent features css start //////////
+  ////////////////////////////////////////////////*/
+
+  .parent-feature{
+    width: 1340px;
+    height: auto;
+    margin-top: 10rem;
+  }
+  #small-h5-title{
+    color: gray;
+    text-align: center;
+  }
+  #big-feature-title{
+    text-align: center;
+    width: 1340px;
+    line-height: 1.4;
+    font-weight: 400;
+    font-size: 35px;
+    word-spacing: 4px;
+  }
+  #title-color{
+    color:rgb(102, 102, 205);
+  }
+  
+  /* //////////// CintContent css start here ////////////////////
+  //////////////////////////////////////////////////////////////*/ 
+
+  .parent-CintContent{
+    width: 1340px;
+    height: auto;
+    margin-top: 10rem;
+    background:rgb(246, 233, 235)
+  }
+  .title-cint{
+    font-size: 18px;
+    width: 430px;
+    margin-left: 28rem;
+    text-align: center;
+    padding-top:50px;
+  }
+  #cint-h4{
+    font-size: 25px;
+    line-height: 1.8;
+    font-weight: 105;
+    padding-left: 5px;
+    
+  }
+  .parent-values{
+    width: 1340px;
+    height: auto;
+    padding-left: 15px;
+    display: flex;
+  }
+  .cint-content-values{
+    width: 1340px;
+    height: 300px;
+    margin-top: 7rem;
+    padding-left: 15px;
+   
+  }
+  #common-h5{
+    color: dodgerblue;
+    margin-left: 7rem;
+    font-weight: 600;
+    font-size: 55px;
+  }
+  #common-cint-p{
+   color: grey;
+   margin-left: 7rem;
+   font-size: 25px;
+  }
+  .parent-cint-content{
+    display: flex;
+    width: 1340px;
+  }
+  .cint-content-img{
+    width: 1340px;
+    height: 610px;
+    background: url('/public/img/banner_bg-2.png');
+    background-repeat: no-repeat;
+  }
+  .cint-content-img h5{
+    color: rgb(119, 106, 106);
+    padding-top: 15rem;
+    margin-left: 8rem;
+    font-size: 25px;
+  }
+  
+  .cint-content-img h2{
+    width: 500px;
+    margin-left: 8rem;
+    font-size: 45px;
+    color: white;
+    margin-top: 20px;
+    font-weight: 300;
+  }
+  .repeat-circle{
+    margin-top: 252px;
+  }
+
+  .fa{
+    font-size:20px;
+    color:white;
+    margin-top: 60px;
+  }
+  .circle1{
+    height:400px;
+    width:300px;
+    border-radius: 50%;
+    background-color: coral;
+    padding: 36px;
+    cursor: pointer;
+    margin-left: -220px;
+  }
+  
+  .circle1:hover {
+    background-color: white;
+    border: 2px solid coral; 
+  }
+  .circle1:hover .fa{
+    color: coral;
+  }
+
+  /* ///////Screen Shot and features have a same css //////////////////////
+  */
+
+  /* Team Member css now start here ////////
+  ///////////////////////////////////////*/
+
+  .parent-TeamMember{
+    width: 1340;
+    height: 700px;
+    margin-top: 7rem;
+    background-color: rgb(218, 246, 236);
+  }
+  .parent-feature1{
+    width: 1340px;
+    height: auto;
+    margin-top: 10rem;
+   padding-top: 120px;
+  }
+  .parent-member{
+    width: 1340px;
+    display: flex;
+    margin-top: 35px;
+  }
+  .member-1{
+    margin-left: 85px;
+    padding-right: 25px;
+  }
+  #common-members-h3{
+    padding: 25px 0px 0px 45px;
+    font-size: 20px;
+    font-weight: 55;
+  }
+  #members-p{
+    padding: 5px 0px 0px 75px;
+    color: grey;
+  }
+  .member-2{
+    padding-right: 25px;
+  }
+  .member-3{
+    padding-right: 25px;
+  }
+
+  /* /////////////Price table css start here //////////////////
+  \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
+
+  .parent-PriceTable{
+    width: 1340px;
+    background: url('/public/img/pricing_bg.png');
+    height: 600px;
+  }
+  .title-price{
+    width: 1340px;
+    height: auto;
+  }
+  .title-price p{
+    color: white;
+    text-align: center;
+    padding-top: 7rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+  }
+  .title-price h5{
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    font-weight: 85;
+    padding-top: 12px;word-spacing: 3px;
+  }
+  .table{
+    width: 1150px;
+    height:600px;
+    background-color: azure;
+    margin-left: 5rem;
+    margin-top: 5rem;
+  }
+  #table-content{
+    width: 1148px;
+    height: 70px;
+    background-color: rgb(209, 225, 226);
+    display: flex;
+    padding-left: 115px;
+    padding-top: 30px;
+  }
+  #p1{
+    color: dodgerblue;
+    font-weight: bold;
+    letter-spacing: 3px;
+  }
+  #p2{
+    color: dodgerblue;
+    font-weight: bold;
+    margin-left: 16rem;
+    letter-spacing: 3px;
+  }
+  #p3{
+    color: dodgerblue;
+    font-weight:bold;
+    margin-left: 18rem;
+    letter-spacing: 3px; 
+  }
+  .table-dolar{
+    width: 1148px;
+    height: 70px;
+    margin-top: 35px;
+    display: flex;
+  }
+  #free{
+    display: flex;
+    padding-left: 115px;
+    padding-top: 30px;
+    font-weight: 500;
+    font-size: 45px;
+  }
+  #dolor-h3{
+    display: flex;
+    padding-left: 115px;
+    padding-top: 30px;
+    font-weight: 500;
+    font-size: 45px;
+    margin-left: 10rem;
+  }
+  #high-dolar{
+    display: flex;
+    padding-left: 115px;
+    padding-top: 30px;
+    font-weight: 500;
+    font-size: 45px;
+    margin-left: 9rem;
+  }
+.parent-content-table{
+  width: 1150px;
+  display: flex;
+}
+#para-1-content{
+  color: grey;
+  padding-top: 55px;
+  margin-left: 76px;
+  font-size: 20px;
+  word-spacing: 3px;
+  line-height: 3;
+}
+#para-2-common{
+  color: grey;
+  padding-top: 55px;
+  margin-left: 76px;
+  font-size: 20px;
+  word-spacing: 3px;
+  line-height: 3;
+  
+}
+.btn-table-common{
+  width: 1338px;
+  height:100px;
+  margin-top: 75px;
+  margin-left: 0rem;
+}
+#btn1{
+  text-decoration: none;
+  border-color: rgba(55,118,234,.5);
+  padding: 20px 35px 20px 35px;
+  margin-left: 6rem;
+  border-radius: 5px;
+  background-color: #3776ea;
+  color: white;
+  
+}
+#btn2{
+  text-decoration: none;
+  border-color: rgba(55,118,234,.5);
+  padding: 20px 35px 20px 35px;
+  margin-left: 13rem;
+  border-radius: 5px;
+  background-color: #3776ea;
+  color: white;
+}
+#btn3{
+  text-decoration: none;
+  border-color: rgba(55,118,234,.5);
+  padding: 20px 35px 20px 35px;
+  margin-left: 13rem;
+  border-radius: 5px;
+  background-color: #3776ea;
+  color: white;
+}
+/* /////////////Plan and Pricing start here ////////////////
+///////////////////////////////////////////////////////////*/
+
+.parent-pricing-and-plan{
+  width: 1340px;
+  height: 680px;
+  background-color: aliceblue;
+  margin-top: 16rem;
+}
+.pricing-title-plan{
+  width: 1338px;
+
+}
+#p-plan-price{
+  color: grey;
+  text-align: center;
+  padding-top: 85px;
+}
+#center-text{
+  color: grey;
+  text-align: center;
+  padding-top: 8rem;
+}
+#content-testimonial{
+  width: 1100px;
+  margin-left: 7rem;
+  font-size: 25px;
+  text-align: center;
+  margin-top: 4rem;
+ color: #625050;
+}
+.img-testimonial{
+  border: 2px solid black;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin-left: 38rem;
+  margin-top: 3rem;
+}
+#name{
+  font-size: 20px;
+  width: 200px;
+  padding-top: 5px;
+  margin-left: -20px;
+}
+
+/*//////////// parent Google app css start here//////
+////////////////////////////////////////////////////*/
+
+.parent-AppGoogle{
+  width: 1340px;
+  height: 500px;
+  background: url('/public/img/banner_bg-3.png');
+  background-repeat: no-repeat;
+  display: flex;
+}
+.app-content{
+  width: 430px;
+  padding-top: 10rem;
+  margin-left: 7rem;
+  font-size: 45px;
+  line-height: 1.5;
+}
+.app-content h5{
+  color: white;
+  font-weight: 400;
+  margin-bottom: 18px;
+}
+.app-content p{
+  font-size: 15px;
+  color: white;
+  margin-top: -20px;
+}
+
+.app-imges{
+  width: 400px;
+  padding-top: 12.5rem;
+  margin-left: 19.5rem;
+  padding-right: 5px;
+
+}
+#img-googl{
+  margin-left: 35px;
+}
+#googl-para{
+  color: white;
+  margin-top: 25px;
+  margin-left: 44px;
+}
+/* ////////// Now my footer area css start here//////////////////
+/////////////////////////////////////////////////////////////////*/
+.parent-footer{
+  width: 1340px;
+  height: auto;
+  margin-top: 7rem;
+  display: flex;
+}
+.logo-address{
+  margin-left: 80px;
+  
+}
+#p-add{
+  margin-top: 45px;
+  color: grey;
+  width: 300px;
+  font-size: 18px;
+}
+#p-email{
+  color: grey;
+  font-size: 18px;
+  margin-top: 25px;
+}
+#phone{
+  color: dodgerblue;
+  font-size: 25px;
+  margin-top: 25px;
+}
+.QUICK-LINKS{
+  width: 250px;
+  margin-left: 20px;
+}
+#link-h5{
+  font-size: 20px;
+  font-weight: 50;
+  letter-spacing: 1px;
+}
+ #quick-p{
+  padding-top: 60px;
+  color: grey;
+  font-size: 16px;
+ }
+ #quick-common-p{
+  color: grey;
+  font-size: 16px;
+  padding-top: 30px;
+ }
+ .SUPPORT{
+  width: 250px;
+ }
+ .SUBSCRIBE-US{
+  width:350px
+ }
+ #textbox-id{
+  margin-top: 60px;
+  font-size: 15px;
+  padding:20px;
+ }
+ #btn-footer{
+  padding: 17px;
+  background-color: white;
+  color: blue;
+  font-size: 20px;
+  
+ }
+ #btn-footer:hover{
+  background-color: dodgerblue;
+  color: white;
+ }
+ .social-footer-icon{
+  margin-top: 35px;
+  
+ }
+ #footer-facebook{
+  opacity: 0.3;
+  cursor: pointer;
+ }
+ #footer-facebook:hover{
+  opacity: 1;
+ }
+ #footer-tumblr{
+  opacity: 0.3;
+  cursor: pointer;
+ }
+ #footer-tumblr:hover{
+  opacity: 1;
+ }
+ #footer-twitter{
+  opacity: 0.3;
+  cursor: pointer;
+ }
+ #footer-twitter:hover{
+  opacity: 1;
+ }
+ #footer-youtube{
+  opacity: 0.3;
+  cursor: pointer;
+ }
+ #footer-youtube:hover{
+  opacity: 1;
+ }
+
+ /* ///////// Right-reserved this is last///////
+ ///////////////////////////////////////////////*/
+
+ .Right-reserved{
+  width: 1340px;
+  height: 60px;
+  margin-top: 7rem;
+  display: flex;
+  padding: 24px 0px 0px 0px;
+ }
+ #left-bar{
+  color: grey;
+  margin-left: 5rem;
+  width: 600px;
+ }
+ #right-bar{
+  width: 600px;
+  margin-left: 85px;
+ }
+ #ul-id{
+  list-style: none;
+ }
+ #a-list{
+  color: grey;
+  margin-left: 25px;
+  text-decoration: none;
+  font-family: sans-serif;
+  padding-inline-start: 20px;
+  font-size: 20px;
+
+ }
+ #a-list:hover{
+  color:black;
+  
+ }
+

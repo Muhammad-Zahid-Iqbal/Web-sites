@@ -1,0 +1,192 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.main-header{
+  width: 1360px;
+  height: 100vh;
+  background: url('/public/img/banner_bg.png');
+  background-repeat: no-repeat;
+  overflow: hidden;
+  
+}
+.content-header{
+  display: flex;
+  width: 100px;
+  height: 120px;
+}
+.header-logo{
+  display: flex;
+  color: white;
+  padding: 40px;
+  font-size: 20px;
+}
+#img-logo{
+  padding-right: 10px;
+}
+.parent-NavBar{
+  width: 800px;
+  padding-top: 50px;
+  margin-left: 6rem;
+}
+.nav-ul-class{
+  list-style-type: none;
+  display: flex;
+  width: 900px;
+}
+.active:hover{
+  text-decoration: underline;
+  text-decoration: 1px underline;
+  color:azure
+}
+.nav-ul-class li{
+  font-size: 20px;
+  padding: 0px 20px 0px 20px;
+}
+.nav-ul-class li a{
+  text-decoration: none;
+  color: white;
+  font-family: sans-serif;
+  padding-inline-start: 20px;
+}
+.sub-menu-1{
+  display: none;
+}
+.nav-ul-class li:hover .sub-menu-1{
+  display: block;
+  position: absolute;
+  background-color: white;
+  
+}
+.nav-ul-class li:hover .sub-menu-1 ul{
+  list-style-type: none;
+  display: block;
+  margin: 25px 0px 0px 0px;
+  width: 250px;
+  border-radius: 5px;
+  margin-bottom: 25px;
+}
+.nav-ul-class li:hover .sub-menu-1 ul li{
+  background: transparent;
+  text-align: left;
+  margin-top: 15px;
+  
+}
+.nav-ul-class li:hover .sub-menu-1 ul li a{
+  color: dodgerblue;
+  margin-left: -20px;
+  font-size: 18px;
+}
+.signIn-Out{
+  width: 400px;
+  margin-top: 55px;
+  display: flex;
+ 
+}
+#sign-in{
+  width: 80px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+#sign-up{
+  width: 130px;
+  text-decoration: none;
+  color: blue;
+  font-weight: bold;
+  background-color: white;
+  text-align: center;
+  border-radius: 5px;
+  padding: 20px 10px 35px 20px;
+  margin-bottom: 50px;
+  margin-top: -20px;
+  margin-left: 20px;
+}
+/* .main-Navbar{
+  padding-top: 50px;
+  margin-left: 8rem;
+}
+.navbar-ul{
+  list-style-type: none;
+}
+.navbar-li{
+  font-size: 20px;
+}
+.navbar-li a{
+  color: white;
+  margin-left: 25px;
+  text-decoration: none;
+  font-family: sans-serif;
+  padding-inline-start: 20px;
+}
+#sign-in{
+  padding-top: 54px;
+  margin-left: 100px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+#sign-up{
+  margin-left: 40px;
+  text-decoration: none;
+  color: blue;
+  font-weight: bold;
+  background-color: white;
+  margin-top: 40px;
+  margin-bottom: 35px;
+  text-align: center;
+  padding: 15px 25px 15px 25px;
+  border-radius: 5px;
+} */
+.page-content{
+  width: 99%;
+  padding: 25px;
+  margin: 25px 0px 0px 55px;
+}
+.centeral-content{
+  display: flex;
+  width: 1300px;
+  
+}
+#page-title{
+  width: 400px;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 0;
+  line-height: 55px;
+  font-size: 40px;
+  font-weight: normal;
+  padding: 10px 0px 0px 20px;
+}
+#page-para{
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  padding-top: 15px;
+  font-size: 18px;
+  margin-bottom: 70px;
+  padding: 10px 0px 0px 20px;
+}
+#get-started{
+  
+  text-decoration: none;
+  color:white;
+  font-weight: bold;
+  background-color:coral;
+  margin-bottom: 35px;
+  text-align: center;
+  padding: 20px 50px 20px 50px;
+  border-radius: 5px;
+  margin-left: 20px;
+}
+#page-img{
+  width: 850px;
+
+}
+#img-style{
+  width: 850px;
+  height: 600px;
+  overflow: hidden;
+  margin-left: 12rem;
+}
